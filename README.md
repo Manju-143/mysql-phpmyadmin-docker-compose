@@ -18,6 +18,29 @@ It's designed for learning, development, or local testing.
 - Clean, minimal configuration
 
 ---
+Clone this repository and: docker compose up -d
+
+### 4. Access phpMyAdmin
+Open in your browser:
+
+ `http://localhost:8080`
+
+Login details:
+
+- **Server:** mysql  
+- **Username:** root  
+- **Password:** (value from your `.env`)  
+
+---
+
+##  Volumes
+
+MySQL data is stored in a Docker volume so your database persists even after container restarts.
+
+---
+
+
+
 
 
 
